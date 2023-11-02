@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './_components/Header';
 import Heroes from './_components/Heroes';
-
+import Footer from './_components/Footer';
 
 function MarketingPage() {
   return (
@@ -10,6 +10,7 @@ function MarketingPage() {
         <Header />
         <Heroes />
       </div>
+   <Footer/>
     </div>
   );
 }
